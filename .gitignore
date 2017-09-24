@@ -33,7 +33,7 @@ nbdist/
 .mtj.tmp/
 
 # Package Files #
-*.jar
+*.jar !(RingHunter.jar)
 *.war
 *.ear
 *.zip
