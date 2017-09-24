@@ -3,7 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>stefanich.andrew</groupId>
+	<groupId>com.github.astefanich</groupId>
 	<artifactId>ring_hunter</artifactId>
 	<version>5.0</version>
 	<name>Ring Hunter</name>
@@ -39,7 +39,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass> driver.RingHunterDriver </mainClass>
+							<mainClass>com.github.astefanich.ringhunter.driver.RingHunterDriver </mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
