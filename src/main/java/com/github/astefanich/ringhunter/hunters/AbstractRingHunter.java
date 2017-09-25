@@ -11,7 +11,7 @@ import com.github.astefanich.ringhunter.nodes.Root;
  * Abstract hunter class. Subclasses should traverse the tree by definin custom searching
  * algorithms, by overriding startAt().
  */
-public abstract class RingHunter {
+public abstract class AbstractRingHunter {
 
 	/**
 	 * Gets the name of this instance.

@@ -9,7 +9,7 @@ import org.abego.treelayout.TreeLayout;
 import org.abego.treelayout.util.DefaultConfiguration;
 import org.abego.treelayout.util.DefaultTreeForTreeLayout;
 
-import com.github.astefanich.ringhunter.hunters.RingHunter;
+import com.github.astefanich.ringhunter.hunters.AbstractRingHunter;
 import com.github.astefanich.ringhunter.nodes.Being;
 import com.github.astefanich.ringhunter.nodes.MiddleEarthNode;
 import com.github.astefanich.ringhunter.nodes.Place;
@@ -18,7 +18,7 @@ import com.github.astefanich.ringhunter.nodes.Root;
 /**
  * Generates a random tree structure with 0-4 children per node. Nodes are represented
  * by Tolkien's Middle-earth locations or characters. This will create a tree which returns a
- * {@link MiddleEarthNode} for a {@link RingHunter} to search, and also creates a printable tree
+ * {@link MiddleEarthNode} for a {@link AbstractRingHunter} to search, and also creates a printable tree
  * with the same structure.
  * 
  * @author AndrewStefanich

@@ -9,13 +9,13 @@ import com.github.astefanich.ringhunter.trees.RandomTree;
 
 /**
  * Utilizes a depth-first searching algorithm for finding The One Ring. Implementation class of
- * {@link RingHunter}.
+ * {@link AbstractRingHunter}.
  * 
  * @author AndrewStefanich
  * @see RandomTree
  * @see MiddleEarthNode
  */
-public class RingHunter_DepthFirst extends RingHunter {
+public class DepthFirstHunter extends AbstractRingHunter {
 
 	/** name of our hunter */
 	private final String name = "Witch-king of Angmar";

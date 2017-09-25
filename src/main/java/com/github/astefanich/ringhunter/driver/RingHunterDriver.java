@@ -13,8 +13,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import com.github.astefanich.ringhunter.hunters.RingHunter;
-import com.github.astefanich.ringhunter.hunters.RingHunter_DepthFirst;
+import com.github.astefanich.ringhunter.hunters.AbstractRingHunter;
+import com.github.astefanich.ringhunter.hunters.DepthFirstHunter;
 import com.github.astefanich.ringhunter.nodes.MiddleEarthNode;
 import com.github.astefanich.ringhunter.trees.RandomTree;
 
@@ -149,7 +149,7 @@ public class RingHunterDriver extends Applet implements ActionListener {
 		button.setText("Reset");  //if we reached this point, our user has clicked the button atleast once
 
 		//get a new tree/report for each user click
-		RingHunter myHunter = new RingHunter_DepthFirst();
+		AbstractRingHunter myHunter = new DepthFirstHunter();
 		RandomTree myTree = new RandomTree();
 		MiddleEarthNode treeRoot = myTree.getTreeTop();
 		myHunter.startAt(treeRoot);
