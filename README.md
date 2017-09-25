@@ -2,9 +2,7 @@
 A swing application which generates random trees and visually displays a depth-first search algorithm. 
 
 ## Execute
-Open/double-click RingHunter.jar
-OR
-java -jar RingHunter.jar
+Open/double-click RingHunter.jar OR java -jar RingHunter.jar in a CLI
 
 ### Documentation
 <a href="https://astefanich.github.io/ring_hunter/"> Javadoc</a>
