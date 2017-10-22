@@ -1,5 +1,6 @@
 # ring_hunter
-A swing application which generates random trees and visually displays a depth-first search algorithm. 
+A swing application which generates random trees and visually displays a depth-first search algorithm.
+This application is tightly coupled; future plans are to redesign this with same overall functionality.
 
 ## Execute
 Open/double-click RingHunter.jar OR java -jar RingHunter.jar in a CLI
